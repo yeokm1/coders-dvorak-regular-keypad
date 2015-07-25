@@ -49,6 +49,6 @@ If you need to modify the layout for some reason...
 
 ###Mac
 
-1) Install [Ukelele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele)
-2) Open the `.keylayout` file you wist to modify. You should see something like this
+1) Install [Ukelele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele)  
+2) Open the `.keylayout` file you wist to modify. You should see something like this  
 3) Save as bundle
