@@ -29,4 +29,26 @@ If you prefer version, continue on.
 3) Copy the bundle file to `/Library/Keyboard Layouts` if you want it to be system wide or `~/Library/Keyboard Layouts` if you only want it for the current user.  
 4) Go to System Preferences, Keyboards, Input Sources
 
+##How to modify?
 
+If you need to modify the layout for some reason...
+
+###Windows
+
+1) Install the [Microsoft Keyboard Layout Creator](https://msdn.microsoft.com/en-us/goglobal/bb964665.aspx)  
+2) Open the `.klc` file you wish to modify. You should see something like this:  
+
+
+![Screen](images/windows-prod-dvorak-main.png)
+
+![Screen](images/windows-prod-dvorak-shift.png)
+
+3) Set current working directory  
+4) Once you are done, click Project->Build DLL and Setup Package.  
+5) Go to your working directory to retrieve the install folder  
+
+###Mac
+
+1) Install [Ukelele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele)
+2) Open the `.keylayout` file you wist to modify. You should see something like this
+3) Save as bundle
