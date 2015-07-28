@@ -42,7 +42,9 @@ If you need to modify the layout for some reason...
 ###Windows
 
 1) Install the [Microsoft Keyboard Layout Creator](https://msdn.microsoft.com/en-us/goglobal/bb964665.aspx)  
-2) Open the `.klc` file you wish to modify. You should see something like this:  
+2) Open the `.klc` file you wish to modify. I can't seem to view the keypad in MKLC though. 
+
+You should see something like this:  
 
 ![Screen](images/windows-prod-dvorak-main.png)
 
@@ -55,7 +57,9 @@ If you need to modify the layout for some reason...
 ###Mac
 
 1) Install [Ukelele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele)  
-2) Open the `.keylayout` file you wist to modify. You should see something like this:  
+2) Open the `.keylayout` file you wist to modify. You may wish to change the keyboard type to view the keypad. View -> Keyboard Type -> Third party.
+
+You should see something like this:  
 
 ![Screen](images/mac-prod-dvorak-main.png)
 
