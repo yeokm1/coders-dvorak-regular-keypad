@@ -31,9 +31,20 @@ If you prefer my version, continue on.
 
 ###For Login Screen
 This above settings are only tied to your user account, to set it as the default for the login prompt, visit these links:  
-[For Mac](http://www.macissues.com/2015/04/16/fix-an-incorrect-default-keyboard-layout-at-the-os-x-login-prompt/)  
+[For Mac](http://www.macissues.com/2015/04/16/fix-an-incorrect-default-keyboard-layout-at-the-os-x-login-prompt/)
+
+The simplest option stated in the link above is to relauch the Setup Assistant:
+
+1. Run `sudo rm /var/db/.AppleSetupDone` in Terminal
+2. Restart your Mac
+3. Set your new keyboard layout when asked to do so
+4. You will come to a point where you have to create a new user account. I just created a dummy account to prevent conflicts with my existing username.
+5. Once you have logged in, you can delete the dummy account.
+
 [For Windows](https://social.technet.microsoft.com/Forums/windows/en-US/c64ee221-db3c-4058-8d1b-673de613535f/how-to-change-keyboard-layout-for-login-and-password-in-windows-8?forum=w8itprogeneral)
 
+Go to Control Panel:
+"Open "region" > then on the "administration" tab > click "copy settings" > then check the box "for home screen & new users"."
 
 ##How to modify?
 
