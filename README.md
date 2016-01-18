@@ -21,9 +21,10 @@ If you prefer my version, continue on.
 3) Unzip the file  
 
 ###Windows
-3) Go to Control Panel -> Language  
-4) Select your language -> Option -> Add an input method   
-5) Search for `Programmer Dvorak - Normal Keypad` and Add. If the new layout is not visible, you may need to reboot your machine and start from Step 3.
+3) Run `msi` or `setup.exe`  
+4) Go to Control Panel -> Language  
+5) Select your language -> Option -> Add an input method   
+6) Search for `Programmer Dvorak - Normal Keypad` and Add. If the new layout is not visible, you may need to reboot your machine and start from Step 3.
 
 ###Mac
 3) Copy the bundle file to `/Library/Keyboard Layouts` if you want it to be system wide or `~/Library/Keyboard Layouts` if you only want it for the current user.  
