@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.8 on 2015-08-29 at 11:09 (SGT)-->
-<!--Last edited by Ukelele version 2.2.8 on 2015-08-29 at 11:17 (SGT)-->
+<!--Last edited by Ukelele version 2.2.8 on 2016-04-15 at 12:56 (SGT)-->
 <keyboard group="0" id="8015" name="Programmer Dvorak - Normal Keypad" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="f4" mapSet="a14"/>
@@ -250,7 +250,7 @@
             <key code="27" output="8"/>
             <key code="28" output="2"/>
             <key code="29" output="6"/>
-            <key code="30" output="+"/>
+            <key code="30" output="^"/>
             <key code="31" output="R"/>
             <key code="32" output="G"/>
             <key code="33" output="?"/>
