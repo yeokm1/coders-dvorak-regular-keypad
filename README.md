@@ -1,6 +1,6 @@
-# programmer-dvorak-normal-keypad
+# coders-dvorak-regular-keypad
 
-I like [Roland Kaufmann's Programmer Dvorak](http://www.kaufmann.no/roland/dvorak/) keyboard layout however I dislike the fact that he reverses the direction of the numeric keypad. This is an installable solution that slightly backtracks from his improvements.
+I like [Roland Kaufmann's Programmer Dvorak](http://www.kaufmann.no/roland/dvorak/) keyboard layout however I dislike the fact that he reverses the direction of the numeric keypad. This is an installable solution that slightly backtracks from his improvements. This repository was originally called "programmer-dvorak-normal-keypad" but due to objections from Roland himself, I have renamed this to "coders-dvorak-regular-keypad". The layout name in the releases folder will be adjusted when time permits.
 
 To get an idea, here is a comparison
 
@@ -16,7 +16,7 @@ If you prefer my version, continue on.
 
 ##How to use?
 
-1) Go to the [Releases](https://github.com/yeokm1/programmer-dvorak-normal-keypad/releases) section.  
+1) Go to the [Releases](https://github.com/yeokm1/coders-dvorak-regular-keypad/releases) section.  
 2) Download either the "English Singapore" or "English US" version relevant to your operating system Windows/Mac.  
 3) Unzip the file  
 
