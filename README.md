@@ -4,7 +4,7 @@ I like [Roland Kaufmann's Programmer Dvorak](http://www.kaufmann.no/roland/dvora
 
 To get an idea, here is a comparison
 
-![Screen](images/original-programmer dvorak.png)
+![Screen](images/original-programmer-dvorak.png)
 
 Kaufman's original layout with "improved" keypad layout
 
