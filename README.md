@@ -16,7 +16,7 @@ If you prefer my version, continue on.
 
 ## How to use?
 
-1) Go to the [Release directory](Release/) section.  
+1) Go to the [Release directory](https://github.com/yeokm1/coders-dvorak-regular-keypad/releases) section.  
 2) Download either the "English Singapore" or "English US" version relevant to your operating system Windows/Mac.  
 3) Unzip the file  
 
