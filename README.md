@@ -28,7 +28,8 @@ If you prefer my version, continue on.
 
 #### For other languages example Chinese IME
 
-Open Powershell as Administrator.
+Install the language pack. You can use the registry but Powershell works too.
+Open Powershell as Administrator. Replace `00000804` with the ID of your language.
 
 ```bash
 Get-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\00000804'
@@ -60,6 +61,8 @@ PSProvider          : Microsoft.PowerShell.Core\Registry
 ```
 
 Sign out and in again and the changes should take effect.
+
+[Source](https://medium.com/@jiayu./how-to-set-your-pinyin-ime-keyboard-layout-to-dvorak-on-windows-8165ae0de6b5)
 
 ### Mac
 3) Copy the `*.bundle` file to `~/Library/Keyboard Layouts` for the current user and `*.keylayout` to `/Library/Keyboard Layouts` for login screen purposes.
