@@ -26,6 +26,41 @@ If you prefer my version, continue on.
 5) Select your language -> Option -> Add an input method   
 6) Search for `Programmer Dvorak - Normal Keypad` and Add. If the new layout is not visible, you may need to reboot your machine and start from Step 4.
 
+#### For other languages example Chinese IME
+
+Open Powershell as Administrator.
+
+```bash
+Get-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\00000804'
+
+Layout Display Name : @C:\Windows\system32\input.dll,-5072
+Layout File         : ProgDv.dll
+Layout Text         : Chinese (Simplified) - US Keyboard
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\00000804
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layouts
+PSChildName         : 00000804
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+
+Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\00000804' -Name 'Layout File' -Value 'ProgDv.dll'
+
+# Optional
+Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\00000804' -Name 'Layout Text' -Value 'Chinese (Simplified) Programmer Dvorak'
+
+Get-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\00000804'
+
+Layout Display Name : @C:\Windows\system32\input.dll,-5072
+Layout File         : ProgDv.dll
+Layout Text         : Chinese (Simplified) Programmer Dvorak
+PSPath              : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\00000804
+PSParentPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layouts
+PSChildName         : 00000804
+PSDrive             : HKLM
+PSProvider          : Microsoft.PowerShell.Core\Registry
+```
+
+Sign out and in again and the changes should take effect.
+
 ### Mac
 3) Copy the `*.bundle` file to `~/Library/Keyboard Layouts` for the current user and `*.keylayout` to `/Library/Keyboard Layouts` for login screen purposes.
 4) Go to System Preferences, Keyboard, Input Sources, click "+", select English, select `Programmer Dvorak - Normal Keypad`
